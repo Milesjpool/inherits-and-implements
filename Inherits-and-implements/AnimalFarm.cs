@@ -1,4 +1,4 @@
-﻿namespace InheritsAndImplements.Test
+﻿namespace InheritsAndImplements
 {
     public class AnimalFarm : Farm
     {

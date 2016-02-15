@@ -42,14 +42,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Answers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ThereAreManyFarmsInTheWorld.cs" />
+    <Compile Include="InterfacesAndDairyFarms.cs" />
+    <Compile Include="InheritanceAndFarms.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Inherits-and-implements\InheritsAndImplements.csproj">
-      <Project>{8AA2F4B0-6FA5-411E-8999-842EEF8DDDDC}</Project>
-      <Name>InheritsAndImplements</Name>
+    <ProjectReference Include="..\Implements\Implements.csproj">
+      <Project>{4E35A842-3538-4275-B2D1-87916043B078}</Project>
+      <Name>Implements</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Inherits-and-implements\Inherits.csproj">
+      <Project>{8AA2F4B0-6FA5-411E-8999-842EEF8DDDDC}</Project>
+      <Name>Inherits</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
